@@ -20,7 +20,7 @@ const Header = () => {
                     href="/"
                     className="text-2xl font-bold text-blue-500 hover:opacity-50 cursor-pointer mx-auto sm:mx-0"
                 >
-                    Hido-yeelo
+                    djib-store
                 </Link>
 
                 {/* Search Bar */}
@@ -51,7 +51,7 @@ const Header = () => {
 
                     {/* User Section */}
                     <ClerkLoaded>
-                        {user && (
+                        {/* {user && (
                             <Link
                                 href="/orders"
                                 className="flex-1 relative flex justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -60,7 +60,7 @@ const Header = () => {
                                 <PackageIcon className="w-6 h-6" />
                                 <span>My Orders</span>
                             </Link>
-                        )}
+                        )} */}
                         {user ? (
                             <div className="flex items-center space-x-2">
                                 <UserButton />

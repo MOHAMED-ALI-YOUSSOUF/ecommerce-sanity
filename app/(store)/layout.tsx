@@ -46,8 +46,10 @@ export default async function RootLayout({
         <main>
           <Header/>
 
+<div className="flex justify-center ">
 
         {children}
+</div>
         </main>
         <SanityLive/>
       </body>
